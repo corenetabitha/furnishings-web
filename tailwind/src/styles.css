@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.pet-images img {
+  @apply w-[100px] h-[100px] object-cover rounded-full border-4 border-primary transition-transform duration-300 hover:scale-110;
+}
+
+.gallery img {
+  @apply w-[300px] rounded-xl shadow-lg transition-transform duration-300 hover:scale-105;
+}
+
+.top-nav li {
+  @apply bg-primary text-white px-5 py-2 rounded-md cursor-pointer transition-colors duration-300 hover:bg-secondary;
+}
